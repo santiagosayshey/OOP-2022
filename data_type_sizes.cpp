@@ -26,7 +26,7 @@ int main() {
     cout << "size of int = " << sizeof(d) << endl;
     cout << "size of long int = " << sizeof(e) << endl;
     cout << "size of unsigned long int = " << sizeof(f) << endl;
-    cout << "size of  long long int = " << sizeof(g) << endl;
+    cout << "size of long long int = " << sizeof(g) << endl;
     cout << "size of unsigned long long int = " << sizeof(h) << endl;
     cout << "size of signed char = " << sizeof(i) << endl;
     cout << "size of unsigned char = " << sizeof(j) << endl;
