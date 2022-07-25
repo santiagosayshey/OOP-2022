@@ -1,6 +1,6 @@
 // function to sum the elements of an array
 
-int sum_array(int array[], int n) {
+int array_sum(int array[], int n) {
     
     // declare and intialise sum
     int sum = 0;
