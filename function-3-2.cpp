@@ -1,10 +1,9 @@
 // determines the median of a sorted array
 #include <iostream>
-#include <algorithm>
 
 
 int median_array(int array[], int n) {
-    
+
 	for(int i=0;i<n;i++)
 	{		
 		for(int j=i+1;j<n;j++)
