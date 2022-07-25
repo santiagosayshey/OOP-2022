@@ -24,6 +24,6 @@ void two_five_nine(int array[], int n) {
         }
 
     }
-    std::cout <<"2:"<<twoCount<<","<<"5:"<<fiveCount<<","<<"9:"<<nineCount<<"\n";
+    std::cout <<"2:"<<twoCount<<";"<<"5:"<<fiveCount<<";"<<"9:"<<nineCount<<";"<<"\n";
     return;
 }
