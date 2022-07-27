@@ -40,3 +40,5 @@ int main() {
     std::cout << sum_positive(test_array, 5) << std::endl;
     return 0;
 }
+
+fixed
