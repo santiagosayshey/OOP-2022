@@ -1,0 +1,30 @@
+activity 1: transform binary to decimal and vice versa
+
+    2 - 10
+
+    1. store the binary as a string
+    2. iterate through the array backwards
+        a. every iteration, double a count variable starting with count=1
+        b. check if current element in string is a 1, if yes, add the current count to the sum
+    3. final sum should be the converted integer
+
+    10-2
+
+    1. store the integer as the quotient variable
+    2. store base '2' as the divisor variable
+    3. use a while to loop until the quotient is 0
+        a. get new quotient by dividing the current quotient by the divisor
+        b. get the remainder by finding the modulus of the current quotient and the divisor
+        c. store each remainder in an array
+    4. iterate through the remainder array backwards and print each element without spaces
+    5. output should be the converted binary number 
+
+activity 2: base 10 - base 8 and vice versa
+
+    this is the same as the previous question except the divisor is 8 instead of 2
+
+activity 3: convert base 10 - base 16 (hexadecimal)
+
+    this is the same as the previous question with one added component:
+        remainders above 10 must be converted to a character 10 - A, 11 - B, etc. upto 15
+
