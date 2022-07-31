@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug  1 05:20:40 2022
+# Make data base, printed on Mon Aug  1 05:53:31 2022
 
 # Variables
 
@@ -171,12 +171,12 @@ mymake: transform.cpp
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 2):
-		g++ -o tranform transform.cpp main.cpp
+		g++ -o transform transform.cpp
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-31 16:15:56.076797008
+#  Last modified 2022-08-01 05:53:15.646807001
 #  File has been updated.
 #  Successfully updated.
 
@@ -206,6 +206,6 @@ transform.cpp:
 # strcache performance: lookups = 23 / hit rate = 26%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=1/23=4%
-# Finished Make data base on Mon Aug  1 05:20:40 2022
+# Finished Make data base on Mon Aug  1 05:53:31 2022
 
  

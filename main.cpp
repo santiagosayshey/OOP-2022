@@ -2,11 +2,13 @@
 
 using namespace std;
 
-extern void print_binary_str(int quotient);
+extern void print_binary_str(int decimal);
 
 int main() {
 
-    int decimal = 139567;
+    int decimal;
+    cout << "Enter a number: ";
+    cin >> decimal;
     print_binary_str(decimal);
 
 

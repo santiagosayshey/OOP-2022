@@ -2,8 +2,9 @@
 
 using namespace std;
 
-void print_binary_str(int quotient) {
+int main() {
 
+    int quotient = 56;
     int divisor=2;
     int binaryNum[32];
     int i=0;
@@ -18,4 +19,6 @@ void print_binary_str(int quotient) {
         cout << binaryNum[j];
     }
     cout << endl;
+
+    return 0;
 }
