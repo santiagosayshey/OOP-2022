@@ -5,7 +5,6 @@ using namespace std;
 void print_binary_str(int quotient) {
 
     int divisor=2;
-    int remainder;
     int binaryNum[32];
     int i=0;
 
