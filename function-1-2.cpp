@@ -20,7 +20,7 @@ void print_class(string courses[4], string students[], int report_card[][4], int
         cout <<  students[i] << " ";
         for (int j=0; j<4; j++) {
             cout << report_card[i][j];
-            if (j<4) {
+            if (j<3) {
                 cout << " ";
             }
         }
