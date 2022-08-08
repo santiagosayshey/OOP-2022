@@ -27,6 +27,4 @@ void print_class(string courses[4], string students[], int report_card[][4], int
         cout << endl;
     }
 
-    cout << endl;
-
 }
