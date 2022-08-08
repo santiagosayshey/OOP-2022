@@ -9,7 +9,7 @@ void print_class(string courses[4], string students[], int report_card[][4], int
         cout <<  "Report Card" << " ";
         for (int j=0; j<4; j++) {
             cout << courses[j];
-            if (j<4) {
+            if (j<3) {
                 cout << " ";
             }
         }
