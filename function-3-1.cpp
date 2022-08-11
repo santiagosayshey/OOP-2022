@@ -5,7 +5,7 @@ bool is_fanarray(int array[], int n) {
     bool fan2 = true;
 
     for (int i=0 ; i<n/2 ; i++) {
-        if (array[i+1] < array[i] || array[i] != array[n-i-1]) {
+        if (array[i+1] < array[i]) {
             fan1 = false;
         }    
     }
