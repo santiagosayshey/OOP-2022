@@ -13,3 +13,5 @@ prac 1
 2-5 - determine if array is descending order
 
 3-1 - determine if fan array
+iterate through to n/2 of array. If array[n+1] > array[n], then first fan is false
+through from n to n/2 
