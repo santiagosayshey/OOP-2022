@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-bool is_palindrome(int integers[], int length) {
+bool is_array_palindrome(int integers[], int length) {
 
     bool palindrome = true;
 
@@ -14,7 +14,7 @@ bool is_palindrome(int integers[], int length) {
     return palindrome;
 }
 
-int sum_array_elements(int integers[], int length) {
+int sum_integers(int integers[], int length) {
     int sum=0;
     for (int i =0; i<length; i++) {
         sum += integers[i];
@@ -23,14 +23,14 @@ int sum_array_elements(int integers[], int length) {
 
 }
 
-int sum_if_palindrome(int integers[], int length) {
-    bool palindrome = is_palindrome(integers,length);
+int palindrome_sum(int integers[], int length) {
+    bool palindrome = is_array_palindrome(integers,length);
 
     if (palindrome == false) {
         return -2;
     }
     else {
-        int sum = sum_array_elements(integers,length);
+        int sum = sum_integers(integers,length);
         return sum;
     }
 }

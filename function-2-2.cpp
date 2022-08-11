@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int binary_to_int(int binary_digits[], int number_of_digits) {
+int bin_to_int(int binary_digits[], int number_of_digits) {
 
     int dec = 0;
     int count =1;

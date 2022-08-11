@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-extern void printer(int array[10][10]);
+extern void print_matrix(int array[10][10]);
 
 int main() {
     int array[10][10]={0};
-    printer(array);
+    print_matrix(array);
     return 0;
 }
