@@ -6,9 +6,9 @@ extern int max_sub_sum(int *nums,int length) ;
 
 int main() {
 
-    int array[]={-500,-500,-500,-1,2};
-    int length = 5;
+    int array[]={31, -41, 59, 26, -53, 58, 97, -93, -23, 84};
+    int length = 10;
 
-    cout << max_sub_sum(array,length) << endl;
+    cout << "The maximum contiguous sum is: " << max_sub_sum(array,length) << endl;
     return 0;
 }

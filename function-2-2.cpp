@@ -2,22 +2,20 @@
 
 using namespace std;
 
-int max_sub_sum(int *nums,int length) {
+int max_sub_sum(int *nums, int length) {
 
-    int maxSum=0;;
-    int currentSum=0;
-        for (int i = 0; i<length; i++) {
-            for (int j = i; j<length; j++) {
-                currentSum += *(nums+j);
-                if (currentSum <= maxSum) {
-                    break;
-                }
-                else {
-                    maxSum=currentSum;
-                }
+    // using kadane's algorithm
 
-            }
-            currentSum=0;
+    int maxCurrent = *(nums);
+    int maxActual = *(nums);
+
+    for (int i = 1; i<length; i++) {
+        maxCurrent=max(*(nums+i),maxCurrent+(*(nums+i)));
+
+        if (maxCurrent > maxActual) {
+            maxActual = maxCurrent;
         }
-        return maxSum;
+    }
+
+    return maxActual ;
 }
