@@ -6,10 +6,10 @@ int max_sub_sum(int *nums, int length) {
 
     // using kadane's algorithm
 
-    int maxCurrent = *(nums);
-    int maxActual = *(nums);
+    int maxCurrent = 0;
+    int maxActual = 0;
 
-    for (int i = 1; i<length; i++) {
+    for (int i = 0; i<length; i++) {
         maxCurrent=max(*(nums+i),maxCurrent+(*(nums+i)));
 
         if (maxCurrent > maxActual) {
