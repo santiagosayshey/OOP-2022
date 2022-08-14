@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 00:03:34 2022
+# Make data base, printed on Mon Aug 15 01:28:39 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-2f67f898-be85-4e4a-9c54-5375a5248128.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-06b68e52-4764-4497-96d0-0bdbf92222a1.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +67,7 @@ PWD = /home/samchau/Uni/Object-Oriented-Programming
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/7927_interop
+WSL_INTEROP = /run/WSL/174_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -79,7 +79,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = samchau
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -146,10 +146,8 @@ LANG = C
 TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
-# environment
-MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=68/1024=7%, Rehash=0, Collisions=4/93=4%
+# Load=67/1024=7%, Rehash=0, Collisions=4/92=4%
 
 # Pattern-specific Variable Values
 
@@ -157,9 +155,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2080, inode 50716): 7 files, no impossibilities.
+# . (device 2112, inode 50716): 22 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 22 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,8 +276,8 @@ main-3-2.cpp:
 
 # Not a target:
 main-2-4.cpp:
- 
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -496,12 +494,12 @@ function-3-3.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 57 / storage = 620 B / avg = 10 B
-# current buf: size = 8162 B / used = 620 B / count = 57 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 62 / storage = 662 B / avg = 10 B
+# current buf: size = 8162 B / used = 662 B / count = 62 / avg = 10 B
 
-# strcache performance: lookups = 76 / hit rate = 25%
+# strcache performance: lookups = 91 / hit rate = 31%
 # hash-table stats:
-# Load=57/8192=1%, Rehash=0, Collisions=27/76=36%
-# Finished Make data base on Mon Aug 15 00:03:34 2022
+# Load=62/8192=1%, Rehash=0, Collisions=27/91=30%
+# Finished Make data base on Mon Aug 15 01:28:39 2022
 
  
