@@ -1,0 +1,2 @@
+// it depends. If the data is being stored in the stack, it will exist until the function returns to its parent.
+// On the other hand, if the data is being stored in the heap, it will exist until we manually delete it

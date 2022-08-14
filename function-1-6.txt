@@ -1,0 +1,1 @@
+// this allows us to get user input on the how much memory should be allocated, as opposed to a set number that must be changed within the code for every possible case

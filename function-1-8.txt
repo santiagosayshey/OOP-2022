@@ -1,0 +1,1 @@
+// the program indexes all variables that have been declared and or freed from the stack and the heap

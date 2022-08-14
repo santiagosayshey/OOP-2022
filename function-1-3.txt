@@ -1,0 +1,1 @@
+// it will dynamically allocate memory to the size of 3 integers in array

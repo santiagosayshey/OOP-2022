@@ -18,6 +18,10 @@
 	g++ function-1-5.cpp main-1-5.cpp -o 1-5.out
 	./1-5.out
 
+1-12: function-1-12.cpp main-1-12.cpp
+	g++ function-1-12.cpp main-1-12.cpp -o 1-12.out
+	./1-12.out
+
 2-1: function-2-1.cpp main-2-1.cpp
 	g++ function-2-1.cpp main-2-1.cpp -o 2-1.out
 	./2-1.out
