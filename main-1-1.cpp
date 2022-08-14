@@ -6,9 +6,7 @@ extern void string_2d_copy(std::string first[][2], std::string second[][2], int 
 int main() {
 
     int n=3;
-    string array[3][2]={{"Sam","Dan"},
-                        {"Clam","Ham"},
-                        {"Bam","Nam"}};
+    string array[3][2]={{"Sam","Dan"},{"Clam","Ham"},{"Bam","Nam"}};
 
     string newArray[3][2];
 
