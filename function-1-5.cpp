@@ -7,7 +7,7 @@ int size_of_array_arr()  {
     int* p = new int[3];
     
     for (int i = 0; i<3; i++) {
-        sum += sizeof(p);
+        sum += sizeof(*p);
     }
 
     return sum;

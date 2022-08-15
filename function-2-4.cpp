@@ -2,6 +2,14 @@
 
 using namespace std;
 
+float add_op(float left, float right) {
+    return left+right;
+}
+
+float subtract_op(float left, float right) {
+    return left-right;
+}
+
 float multiply_op(float left, float right) {
     return left*right;
 }
