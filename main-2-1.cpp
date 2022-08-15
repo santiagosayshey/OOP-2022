@@ -3,12 +3,12 @@
 
 using namespace std;
 
-extern float arithmetic_ops(float left, float right, string op);
+extern float arithmetic_ops(float left, float right, char op);
 
 int main() {
 
     int left,right;
-    string op;
+    char op;
 
     cout << "Enter a float: ";
     cin >> left;

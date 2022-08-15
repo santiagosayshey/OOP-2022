@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -10,12 +11,25 @@ float subtract_op(float left, float right) {
     return left-right;
 }
 
-float arithmetic_ops(float left, float right, string op) {
-    if (op=="+") {
-        return add_op(left,right);
-    }
-    else if (op=="-") {
-        return subtract_op(left,right);
+float multiply_op(float left, float right) {
+    return left*right;
+}
+
+float divide_op(float left, float right) {
+    return left/right;
+}
+
+
+float arithmetic_ops(float left, float right, char op) {
+    switch (op) {
+        case '+':
+            return add_op(left,right);
+        case '-':
+            return subtract_op(left,right);
+        case '*':
+            return multiply_op(left,right);
+        case '/':
+            return divide_op(left,right);
     }
     return 0;
 }
