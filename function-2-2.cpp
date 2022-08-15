@@ -10,6 +10,7 @@ int max_sub_sum(int *nums, int length) {
     int maxActual = 0;
 
     for (int i = 0; i<length; i++) {
+        
         maxCurrent=max(*(nums+i),maxCurrent+(*(nums+i)));
 
         if (maxCurrent > maxActual) {
@@ -17,5 +18,6 @@ int max_sub_sum(int *nums, int length) {
         }
     }
 
-    return maxActual ;
+    return maxActual;
+
 }
