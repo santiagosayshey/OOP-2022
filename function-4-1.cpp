@@ -16,7 +16,6 @@ int secondSmallestSum(int *numbers,int length) {
             arr[a]=sum;
             a++;
         }
-
     }
 
     for(int i=0;i<size;i++) {		
@@ -34,9 +33,9 @@ int secondSmallestSum(int *numbers,int length) {
 
 int *readNumbers() {
 
-    int* arr = new int[4];
+    int* arr = new int[10];
 
-    for (int i=0; i<4; i++) {
+    for (int i=0; i<10; i++) {
         cin >> arr[i];
     }
     return arr;
