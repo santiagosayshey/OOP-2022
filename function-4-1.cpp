@@ -13,7 +13,6 @@ int secondSmallestSum(int *numbers,int length) {
         sum = 0;
         for (int j = i; j < length; j++) {
             sum += numbers[j];
-            cout << sum << " ";
             arr[a]=sum;
             a++;
         }
