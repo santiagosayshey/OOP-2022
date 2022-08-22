@@ -15,6 +15,19 @@ bool equalsArray(int *numbers1,int *numbers2,int length) {
     return equal;
 }
 
+int *reverseArray(int *numbers1,int length) {
+
+    int* numbers2 = new int[10];
+    int j=0;
+
+    for (int i=9; i>= 0; i--) {
+        numbers2[j]=numbers1[i];
+        j++;
+    }
+    return numbers2;
+}
+
+
 int *readNumbers() {
 
     int* arr = new int[10];
