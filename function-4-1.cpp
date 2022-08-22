@@ -35,7 +35,6 @@ int *readNumbers() {
     int* arr = new int[4];
 
     for (int i=0; i<4; i++) {
-        cout << "Enter number: " << i+1 << " ";
         cin >> arr[i];
     }
     return arr;
