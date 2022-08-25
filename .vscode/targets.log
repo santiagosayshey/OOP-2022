@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 19 09:02:51 2022
+# Make data base, printed on Thu Aug 25 20:51:27 2022
 
 # Variables
 
@@ -17,7 +15,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -53,9 +51,7 @@ XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-b2274b50-bed6-4b4e-a75a-27046d5b16a1.sock
-# environment
-VSCODE_SERVER_TAR = /mnt/c/Users/schau/AppData/Local/Temp/vscode-remote-wsl/e4503b30fc78200f846c62cf8091b76ff5547662/vscode-server-stable-linux-x64.tar.gz
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-42b87d77-c3c3-438f-8530-3be49f18a46f.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,7 +65,7 @@ PWD = /home/samchau/Uni/Object-Oriented-Programming
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/13409_interop
+WSL_INTEROP = /run/WSL/3400_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -81,7 +77,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = samchau
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -151,7 +147,7 @@ WSL_DISTRO_NAME = Ubuntu
 # environment
 MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=4/94=4%
+# Load=68/1024=7%, Rehash=0, Collisions=4/93=4%
 
 # Pattern-specific Variable Values
 
@@ -159,9 +155,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2112, inode 50716): 8 files, no impossibilities.
+# . (device 2112, inode 50716): 15 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -211,6 +207,20 @@ function-1-4.cpp:
 	g++ function-2-4.cpp main-2-4.cpp -o 2-4.out
 	./2-4.out
 
+4-2: function-4-2.cpp main-4-2.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 66):
+	g++ function-4-2.cpp main-4-2.cpp -o 4-2.out
+	./4-2.out
+
+# Not a target:
+function-4-2.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # Not a target:
 main-3-3.cpp:
 #  Implicit rule search has not been done.
@@ -237,6 +247,14 @@ function-3-1.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+4-4: function-4-4.cpp main-4-4.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 74):
+	g++ function-4-4.cpp main-4-4.cpp -o 4-4.out
+	./4-4.out
 
 1-1: function-1-1.cpp main-1-1.cpp
 #  Implicit rule search has not been done.
@@ -277,7 +295,6 @@ main-3-2.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 main-2-4.cpp:
@@ -294,7 +311,7 @@ function-3-4.cpp:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-16 22:43:28.034408034
+#  Last modified 2022-08-25 20:49:52.140859715
 #  File has been updated.
 #  Successfully updated.
 
@@ -312,6 +329,18 @@ function-3-2.cpp:
 	g++ function-2-3.cpp main-2-3.cpp -o 2-3.out
 	./2-3.out
 
+# Not a target:
+function-4-5.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main-4-3.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 3-3: function-3-3.cpp main-3-3.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -327,6 +356,14 @@ function-3-2.cpp:
 #  recipe to execute (from 'makefile', line 10):
 	g++ function-1-3.cpp main-1-3.cpp -o 1-3.out
 	./1-3.out
+
+4-3: function-4-3.cpp main-4-3.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 70):
+	g++ function-4-3.cpp main-4-3.cpp -o 4-3.out
+	./4-3.out
 
 # Not a target:
 main-3-4.cpp:
@@ -356,6 +393,18 @@ function-1-1.cpp:
 	g++ function-2-5.cpp main-2-5.cpp -o 2-5.out
 	./2-5.out
 
+# Not a target:
+main-4-5.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+function-4-3.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 3-5: function-3-5.cpp main-3-5.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -369,6 +418,15 @@ function-1-2.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+4-5: function-4-5.cpp main-4-5.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 78):
+	g++ function-4-5.cpp main-4-5.cpp -o 4-5.out
+	./4-5.out
+	
 
 # Not a target:
 main-1-1.cpp:
@@ -401,6 +459,12 @@ main-1-2.cpp:
 #  File has not been updated.
 
 # Not a target:
+function-4-4.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 function-1-3.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -408,6 +472,12 @@ function-1-3.cpp:
 
 # Not a target:
 function-2-1.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main-4-1.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -433,6 +503,12 @@ function-1-5.cpp:
 #  File has not been updated.
 
 # Not a target:
+main-4-4.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 function-2-3.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -451,6 +527,12 @@ main-1-3.cpp:
 #  recipe to execute (from 'makefile', line 22):
 	g++ function-2-1.cpp main-2-1.cpp -o 2-1.out
 	./2-1.out
+
+# Not a target:
+function-4-1.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 function-2-5.cpp:
@@ -472,6 +554,14 @@ main-1-5.cpp:
 #  Modification time never checked.
 #  File has not been updated.
 
+4-1: function-4-1.cpp main-4-1.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 62):
+	g++ function-4-1.cpp main-4-1.cpp -o 4-1.out
+	./4-1.out
+
 # Not a target:
 main-2-3.cpp:
 #  Implicit rule search has not been done.
@@ -490,20 +580,28 @@ function-3-3.cpp:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+main-4-2.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # files hash-table stats:
-# Load=49/1024=5%, Rehash=0, Collisions=22/89=25%
+# Load=64/1024=6%, Rehash=0, Collisions=39/114=34%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 58 / storage = 619 B / avg = 10 B
-# current buf: size = 8162 B / used = 619 B / count = 58 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 72 / storage = 782 B / avg = 10 B
+# current buf: size = 8162 B / used = 782 B / count = 72 / avg = 10 B
 
-# strcache performance: lookups = 77 / hit rate = 24%
+# strcache performance: lookups = 104 / hit rate = 30%
 # hash-table stats:
-# Load=58/8192=1%, Rehash=0, Collisions=27/77=35%
-# Finished Make data base on Fri Aug 19 09:02:51 2022
+# Load=72/8192=1%, Rehash=0, Collisions=43/104=41%
+# Finished Make data base on Thu Aug 25 20:51:27 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
