@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug 25 20:51:27 2022
+# Make data base, printed on Fri Aug 26 01:31:04 2022
 
 # Variables
 
@@ -155,9 +157,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2112, inode 50716): 15 files, no impossibilities.
+# . (device 2112, inode 50716): 14 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -174,6 +176,7 @@ main-3-1.cpp:
 2-2: function-2-2.cpp main-2-2.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 26):
 	g++ function-2-2.cpp main-2-2.cpp -o 2-2.out
@@ -311,7 +314,7 @@ function-3-4.cpp:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-25 20:49:52.140859715
+#  Last modified 2022-08-26 01:31:03.29522695
 #  File has been updated.
 #  Successfully updated.
 
@@ -425,7 +428,7 @@ function-1-2.cpp:
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 78):
 	g++ function-4-5.cpp main-4-5.cpp -o 4-5.out
-	./4-5.out
+	./-5.out
 	
 
 # Not a target:
@@ -453,6 +456,7 @@ function-2-2.cpp:
 #  File has not been updated.
 
 # Not a target:
+ 
 main-1-2.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -594,14 +598,12 @@ main-4-2.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 72 / storage = 782 B / avg = 10 B
-# current buf: size = 8162 B / used = 782 B / count = 72 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 71 / storage = 773 B / avg = 10 B
+# current buf: size = 8162 B / used = 773 B / count = 71 / avg = 10 B
 
-# strcache performance: lookups = 104 / hit rate = 30%
+# strcache performance: lookups = 103 / hit rate = 31%
 # hash-table stats:
-# Load=72/8192=1%, Rehash=0, Collisions=43/104=41%
-# Finished Make data base on Thu Aug 25 20:51:27 2022
+# Load=71/8192=1%, Rehash=0, Collisions=43/103=42%
+# Finished Make data base on Fri Aug 26 01:31:04 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-

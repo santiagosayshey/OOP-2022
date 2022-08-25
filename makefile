@@ -76,6 +76,6 @@
 
 4-5: function-4-5.cpp main-4-5.cpp
 	g++ function-4-5.cpp main-4-5.cpp -o 4-5.out
-	./4-5.out
+	./-5.out
 
 	
