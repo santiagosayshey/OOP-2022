@@ -1,2 +1,0 @@
-// if we dont know where memory is stored, we can overwrite other important variables
-// 

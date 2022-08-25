@@ -1,1 +1,0 @@
-//  float (*op)(float,float)

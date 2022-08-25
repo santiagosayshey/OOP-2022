@@ -1,1 +1,0 @@
-// it would be the same, just have to add those repsective functions within the function file
