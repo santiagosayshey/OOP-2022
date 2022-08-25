@@ -57,3 +57,25 @@
 3-5: function-3-5.cpp main-3-5.cpp
 	g++ function-3-5.cpp main-3-5.cpp -o 3-5.out
 	./3-5.out
+
+4-1: function-4-1.cpp main-4-1.cpp
+	g++ function-4-1.cpp main-4-1.cpp -o 4-1.out
+	./4-1.out
+
+4-2: function-4-2.cpp main-4-2.cpp
+	g++ function-4-2.cpp main-4-2.cpp -o 4-2.out
+	./4-2.out
+
+4-3: function-4-3.cpp main-4-3.cpp
+	g++ function-4-3.cpp main-4-3.cpp -o 4-3.out
+	./4-3.out
+
+4-4: function-4-4.cpp main-4-4.cpp
+	g++ function-4-4.cpp main-4-4.cpp -o 4-4.out
+	./4-4.out
+
+4-5: function-4-5.cpp main-4-5.cpp
+	g++ function-4-5.cpp main-4-5.cpp -o 4-5.out
+	./4-5.out
+
+	
