@@ -14,9 +14,5 @@ int *array_pad(int *vals, int len) {
         arr[i+1]=vals[i];
     }
 
-    for (int i=0; i<len+2;i++) {
-        cout << arr[i] << endl;
-    } 
-
     return arr;
 }
