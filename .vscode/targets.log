@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 26 01:31:04 2022
+# Make data base, printed on Sat Aug 27 12:25:30 2022
 
 # Variables
 
@@ -47,13 +45,13 @@ VSCODE_CWD = /mnt/c/Users/schau/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/samchau/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/schau/scoop/shims:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/schau/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/schau/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/schau/AppData/Roaming/npm:/mnt/c/Users/schau/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/schau/go/bin:/mnt/c/Users/schau/propolis_windows.exe:/snap/bin
+PATH = /home/samchau/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/schau/scoop/shims:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/schau/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/schau/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/schau/AppData/Roaming/npm:/mnt/c/Users/schau/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/schau/go/bin:/mnt/c/Users/schau/propolis_windows.exe:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-42b87d77-c3c3-438f-8530-3be49f18a46f.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-708723cf-a4eb-4bae-b8d4-22f6e82bffd8.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +65,7 @@ PWD = /home/samchau/Uni/Object-Oriented-Programming
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/3400_interop
+WSL_INTEROP = /run/WSL/177_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -176,7 +174,6 @@ main-3-1.cpp:
 2-2: function-2-2.cpp main-2-2.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 26):
 	g++ function-2-2.cpp main-2-2.cpp -o 2-2.out
@@ -278,6 +275,9 @@ function-2-4.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
+ 
+make: *** No rule to make target 'all'.  Stop.
 
 # Not a target:
 main-1-4.cpp:
@@ -456,7 +456,6 @@ function-2-2.cpp:
 #  File has not been updated.
 
 # Not a target:
- 
 main-1-2.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -559,6 +558,7 @@ main-1-5.cpp:
 #  File has not been updated.
 
 4-1: function-4-1.cpp main-4-1.cpp
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -604,6 +604,6 @@ main-4-2.cpp:
 # strcache performance: lookups = 103 / hit rate = 31%
 # hash-table stats:
 # Load=71/8192=1%, Rehash=0, Collisions=43/103=42%
-# Finished Make data base on Fri Aug 26 01:31:04 2022
+# Finished Make data base on Sat Aug 27 12:25:30 2022
 
  
