@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 19 09:02:51 2022
+# Make data base, printed on Sat Aug 27 13:11:28 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -47,15 +47,13 @@ VSCODE_CWD = /mnt/c/Users/schau/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/samchau/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/schau/scoop/shims:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/schau/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/schau/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/schau/AppData/Roaming/npm:/mnt/c/Users/schau/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/schau/go/bin:/mnt/c/Users/schau/propolis_windows.exe:/snap/bin
+PATH = /home/samchau/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/schau/scoop/shims:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/schau/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/schau/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/schau/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/schau/AppData/Roaming/npm:/mnt/c/Users/schau/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/schau/go/bin:/mnt/c/Users/schau/propolis_windows.exe:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-b2274b50-bed6-4b4e-a75a-27046d5b16a1.sock
-# environment
-VSCODE_SERVER_TAR = /mnt/c/Users/schau/AppData/Local/Temp/vscode-remote-wsl/e4503b30fc78200f846c62cf8091b76ff5547662/vscode-server-stable-linux-x64.tar.gz
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-6fc67eb5-0d22-45cd-9a2d-5077f450daa9.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,7 +67,7 @@ PWD = /home/samchau/Uni/Object-Oriented-Programming
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/13409_interop
+WSL_INTEROP = /run/WSL/177_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -99,7 +97,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = samchau
 # makefile
-.DEFAULT_GOAL := 1-1
+.DEFAULT_GOAL := main
 # environment
 NAME = SamPC
 # automatic
@@ -151,7 +149,7 @@ WSL_DISTRO_NAME = Ubuntu
 # environment
 MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=4/94=4%
+# Load=68/1024=7%, Rehash=0, Collisions=4/93=4%
 
 # Pattern-specific Variable Values
 
@@ -159,71 +157,15 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2112, inode 50716): 8 files, no impossibilities.
+# . (device 2112, inode 50716): 7 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
-
-# Not a target:
-main-3-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-2-2: function-2-2.cpp main-2-2.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 26):
-	g++ function-2-2.cpp main-2-2.cpp -o 2-2.out
-	./2-2.out
-
-# Not a target:
-function-3-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-2: function-3-2.cpp main-3-2.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 46):
-	g++ function-3-2.cpp main-3-2.cpp -o 3-2.out
-	./3-2.out
-
-# Not a target:
-function-1-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-2-4: function-2-4.cpp main-2-4.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 34):
-	g++ function-2-4.cpp main-2-4.cpp -o 2-4.out
-	./2-4.out
-
-# Not a target:
-main-3-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-4: function-3-4.cpp main-3-4.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 54):
-	g++ function-3-4.cpp main-3-4.cpp -o 3-4.out
-	./3-4.out
 
 # Not a target:
 all:
@@ -233,145 +175,14 @@ all:
 #  File has not been updated.
 
 # Not a target:
-function-3-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-1-1: function-1-1.cpp main-1-1.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 2):
-	g++ function-1-1.cpp main-1-1.cpp -o 1-1.out
-	./1-1.out
-
-# Not a target:
-main-3-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-2-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-1-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-1-2: function-1-2.cpp main-1-2.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 6):
-	g++ function-1-2.cpp main-1-2.cpp -o 1-2.out
-	./1-2.out
-
-# Not a target:
-main-3-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
- 
-
-# Not a target:
-main-2-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-3-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-16 22:43:28.034408034
+#  Last modified 2022-08-27 13:11:26.85792499
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-function-3-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-2-3: function-2-3.cpp main-2-3.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 30):
-	g++ function-2-3.cpp main-2-3.cpp -o 2-3.out
-	./2-3.out
-
-3-3: function-3-3.cpp main-3-3.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 50):
-	g++ function-3-3.cpp main-3-3.cpp -o 3-3.out
-	./3-3.out
-
-1-3: function-1-3.cpp main-1-3.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 10):
-	g++ function-1-3.cpp main-1-3.cpp -o 1-3.out
-	./1-3.out
-
-# Not a target:
-main-3-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-1-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-1-5: function-1-5.cpp main-1-5.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 18):
-	g++ function-1-5.cpp main-1-5.cpp -o 1-5.out
-	./1-5.out
-
-2-5: function-2-5.cpp main-2-5.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 38):
-	g++ function-2-5.cpp main-2-5.cpp -o 2-5.out
-	./2-5.out
-
-3-5: function-3-5.cpp main-3-5.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 58):
-	g++ function-3-5.cpp main-3-5.cpp -o 3-5.out
-	./3-5.out
-
-# Not a target:
-function-1-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-1-1.cpp:
+main.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -382,128 +193,28 @@ main-1-1.cpp:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-main-2-1.cpp:
+main: main.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-function-2-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-1-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-1-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-2-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-2-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-1-4: function-1-4.cpp main-1-4.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 14):
-	g++ function-1-4.cpp main-1-4.cpp -o 1-4.out
-	./1-4.out
-
-# Not a target:
-function-1-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-2-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-1-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-2-1: function-2-1.cpp main-2-1.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 22):
-	g++ function-2-1.cpp main-2-1.cpp -o 2-1.out
-	./2-1.out
-
-# Not a target:
-function-2-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-1: function-3-1.cpp main-3-1.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 42):
-	g++ function-3-1.cpp main-3-1.cpp -o 3-1.out
-	./3-1.out
-
-# Not a target:
-main-1-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-2-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-2-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-3-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  recipe to execute (from 'makefile', line 2):
+	g++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system -o main.out
+	./main.out
 
 # files hash-table stats:
-# Load=49/1024=5%, Rehash=0, Collisions=22/89=25%
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 58 / storage = 619 B / avg = 10 B
-# current buf: size = 8162 B / used = 619 B / count = 58 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 13 / storage = 107 B / avg = 8 B
+# current buf: size = 8162 B / used = 107 B / count = 13 / avg = 8 B
 
-# strcache performance: lookups = 77 / hit rate = 24%
+# strcache performance: lookups = 19 / hit rate = 31%
 # hash-table stats:
-# Load=58/8192=1%, Rehash=0, Collisions=27/77=35%
-# Finished Make data base on Fri Aug 19 09:02:51 2022
+# Load=13/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Sat Aug 27 13:11:28 2022
 
  
