@@ -1,3 +1,4 @@
+#include "Person.h"
 #include "Airplane.h"
 
 int main() {
