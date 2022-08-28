@@ -1,4 +1,4 @@
-#include "Person.h"
+#include "Airplane.h"
 
 Person::Person(int mySalary, std::string myName):
 name(myName),salary(mySalary) {}
