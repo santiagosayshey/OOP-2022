@@ -1,4 +1,5 @@
 #include <string>
+#include "Book.h"
 
 class Library
 {
@@ -6,10 +7,12 @@ public:
     Library();
     ~Library();
 
-    bool borrow_book(std::string book);
-    int return_book(std::string book);
+    void addBook(std::string name, int total, std::string b);
+
+    bool borrowBook(Book book);
+    bool returnBook(Book book);
+
 
 private:
-    Book b
-
+    
 };
