@@ -1,5 +1,7 @@
-#include <string>
+#ifndef _PERSON_H
+#define _PERSON_H
 
+#include <string>
 class Person
 {
     private:
@@ -14,3 +16,5 @@ class Person
         void setSalary(int mySalary);
         int getSalary();
 };
+
+#endif
