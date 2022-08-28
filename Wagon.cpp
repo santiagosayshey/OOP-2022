@@ -1,3 +1,4 @@
+
 #include "Wagon.h"
 
 
@@ -6,9 +7,12 @@ Wagon::~Wagon() {};
 
 bool Wagon::addCapybara(Capybara newCapy)
 {
-    if (space < 3) {
-        Capybara newCapy;
+    if (space < 4) {
+        names[space]=newCapy.getName();
+        ages[space]=newCapy.getAge();
+        
         space += 1;
+
         return 1;
     }
     else {
@@ -23,5 +27,7 @@ void Wagon::emptyWagon()
 
 void Wagon::printCapybaras()
 {
-    
+    for (int i = 0; i<space; i++) {
+        std::cout << names[i] << " " << ages[i] << std::endl;
+    }
 }

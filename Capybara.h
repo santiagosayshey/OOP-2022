@@ -1,3 +1,6 @@
+#ifndef _CAPYBARA_H
+#define _CAPYBARA_H
+
 #include <string>
 
 class Capybara
@@ -15,3 +18,5 @@ class Capybara
         int getAge();
 
 };
+
+#endif
