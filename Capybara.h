@@ -6,26 +6,12 @@ class Capybara
         std::string name;
         int age;
     public:
-        Capybara() {};
-        ~Capybara() {};
+        Capybara();
+        ~Capybara();
 
-        void set_name(std::string capyName)
-        {
-            name = capyName;
-        }
+        void setName(std::string capyName);
+        std::string getName();
+        void setAge(int capyAge);
+        int getAge();
 
-        std::string getName()
-        {
-            return name;
-        }
-
-        void setAge(int capyAge)
-        {
-            age = capyAge;
-        }
-
-        int getAge() 
-        {
-            return age;
-        }
 };

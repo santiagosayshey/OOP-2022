@@ -9,7 +9,7 @@ int main() {
     Capybara c;
     Capybara d;
 
-    a.set_name("Sam");
+    a.setName("Sam");
     std::cout << a.getName() << std::endl;
 
     a.setAge(21);

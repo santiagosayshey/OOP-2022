@@ -6,27 +6,11 @@ class Person
         std::string name;
         int salary;
     public:
-        Person(int mySalary, std::string myName):
-        name(myName),salary(mySalary) {};
-        ~Person() {};
+        Person(int mySalary, std::string myName);
+        ~Person();
 
-        void set_name(std::string myName)
-        {
-            name = myName;
-        }
-
-        std::string getName()
-        {
-            return name;
-        }
-
-        void setSalary(int mySalary)
-        {
-            salary = mySalary;
-        }
-
-        int getSalary() 
-        {
-            return salary;
-        }
+        void setName(std::string myName);
+        std::string getName();
+        void setSalary(int mySalary);
+        int getSalary();
 };

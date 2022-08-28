@@ -10,7 +10,7 @@ int main() {
     Person d(24,"Clam");
 
     std::cout << a.getName() << std::endl;
-    a.set_name("Dan");
+    a.setName("Dan");
     std::cout << a.getName() << std::endl;
 
     std::cout << a.getSalary() << std::endl;

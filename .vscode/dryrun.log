@@ -1,6 +1,6 @@
 make --dry-run --keep-going --print-directory
 make: Entering directory '/home/samchau/Uni/Object-Oriented-Programming'
-g++ main-1-1.cpp -o 1-1.out
+g++ Capybara.cpp main-1-1.cpp -o 1-1.out
 ./1-1.out
 make: Leaving directory '/home/samchau/Uni/Object-Oriented-Programming'
  

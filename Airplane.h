@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include "Person.h"
 
 class Airplane
 {
@@ -9,25 +10,13 @@ class Airplane
         Person coPilot;
 
     public:
-        Airplane(std::string callsign, Person thePilot, Person theCoPilot):
-        callsign(callsign),pilot(thePilot),coPilot(theCoPilot){ }
+        Airplane(std::string callsign, Person thePilot, Person theCoPilot);
+        ~Airplane();
 
-        ~Airplane() {}
-
-        void setPilot(Person thePilot) {
-            pilot = thePilot;
-        }
-        Person getPilot() {
-            return pilot;
-        }
-        void setCoPilot(Person theCoPilot) {
-            coPilot =  theCoPilot;
-        }  
-        Person getCoPilot() {
-            return coPilot;
-        }
-        void printDetails() {
-            std::cout << callsign << std::endl << pilot.getName() << std::endl << coPilot.getName() << std::endl;
-        }               
+        void setPilot(Person thePilot);
+        Person getPilot();
+        void setCoPilot(Person theCoPilot);
+        Person getCoPilot();
+        void printDetails();         
                                             
 };

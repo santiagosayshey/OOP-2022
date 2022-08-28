@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 28 19:34:16 2022
+# Make data base, printed on Sun Aug 28 20:18:53 2022
 
 # Variables
 
@@ -98,7 +98,6 @@ MAKE_VERSION := 4.2.1
 USER = samchau
 # makefile
 .DEFAULT_GOAL := 1-1
- 
 # environment
 NAME = SamPC
 # automatic
@@ -158,9 +157,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2112, inode 50716): 18 files, no impossibilities.
+# . (device 2112, inode 50716): 21 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -168,61 +167,14 @@ MOTD_SHOWN = update-motd
 
 # Files
 
-2-2: main-2-2.cpp
+2-2: Person.cpp Airplane.cpp main-2-2.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 14):
-	g++ main-2-2.cpp -o 2-2.out
+	g++ Person.cpp Airplane.cpp main-2-2.cpp -o 2-2.out
 	./2-2.out
-
-# Not a target:
-function-3-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-2: function-3-2.cpp main-3-2.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 34):
-	g++ function-3-2.cpp main-3-2.cpp -o 3-2.out
-	./3-2.out
-
-# Not a target:
-function-4-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-4-2: function-4-2.cpp main-4-2.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 54):
-	g++ function-4-2.cpp main-4-2.cpp -o 4-2.out
-	./4-2.out
-
-# Not a target:
-function-4-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-3-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-4: function-3-4.cpp main-3-4.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 42):
-	g++ function-3-4.cpp main-3-4.cpp -o 3-4.out
-	./3-4.out
+	
 
 # Not a target:
 all:
@@ -231,158 +183,46 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
-4-4: function-4-4.cpp main-4-4.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 62):
-	g++ function-4-4.cpp main-4-4.cpp -o 4-4.out
-	./4-4.out
-
-1-1: main-1-1.cpp
+1-1: Capybara.cpp main-1-1.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 2):
-	g++ main-1-1.cpp -o 1-1.out
+	g++ Capybara.cpp main-1-1.cpp -o 1-1.out
 	./1-1.out
 
 # Not a target:
-main-3-5.cpp:
+Capybara.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-function-2-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-4-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-1-2: main-1-2.cpp
+1-2: Person.cpp main-1-2.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 6):
-	g++ main-1-2.cpp -o 1-2.out
+	g++ Person.cpp main-1-2.cpp -o 1-2.out
 	./1-2.out
-
-# Not a target:
-main-3-2.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-2-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-3-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-28 19:34:13.697428951
+#  Last modified 2022-08-28 20:18:46.746986913
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-function-3-2.cpp:
+Airplane.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-function-4-5.cpp:
+Person.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-main-4-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-3: function-3-3.cpp main-3-3.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 38):
-	g++ function-3-3.cpp main-3-3.cpp -o 3-3.out
-	./3-3.out
-
-2-3: function-2-3.cpp main-2-3.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 18):
-	g++ function-2-3.cpp main-2-3.cpp -o 2-3.out
-	./2-3.out
-
-4-3: function-4-3.cpp main-4-3.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 58):
-	g++ function-4-3.cpp main-4-3.cpp -o 4-3.out
-	./4-3.out
-
-# Not a target:
-main-3-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-2-5: function-2-5.cpp main-2-5.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 26):
-	g++ function-2-5.cpp main-2-5.cpp -o 2-5.out
-	./2-5.out
-
-# Not a target:
-main-4-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-4-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-5: function-3-5.cpp main-3-5.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 46):
- 
-	g++ function-3-5.cpp main-3-5.cpp -o 3-5.out
-	./3-5.out
-
-4-5: function-4-5.cpp main-4-5.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 66):
-	g++ function-4-5.cpp main-4-5.cpp -o 4-5.out
-	./4-5.out
-	
 
 # Not a target:
 main-1-1.cpp:
@@ -409,117 +249,40 @@ main-1-2.cpp:
 #  File has not been updated.
 
 # Not a target:
-function-4-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-3-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 main-2-2.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-2-4: function-2-4.cpp main-2-4.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 22):
-	g++ function-2-4.cpp main-2-4.cpp -o 2-4.out
-	./2-4.out
-
-# Not a target:
-main-4-4.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-2-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-3-1.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-2-1: main-2-1.cpp
+2-1: Capybara.cpp Wagon.cpp main-2-1.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 10):
-	g++ main-2-1.cpp -o 2-1.out
+	g++ Capybara.cpp Wagon.cpp main-2-1.cpp -o 2-1.out
 	./2-1.out
 
 # Not a target:
-function-2-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-3-1: function-3-1.cpp main-3-1.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 30):
-	g++ function-3-1.cpp main-3-1.cpp -o 3-1.out
-	./3-1.out
-
-4-1: function-4-1.cpp main-4-1.cpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'makefile', line 50):
-	g++ function-4-1.cpp main-4-1.cpp -o 4-1.out
-	./4-1.out
-
-# Not a target:
-main-2-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-2-5.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-function-3-3.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-main-4-2.cpp:
+Wagon.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=51/1024=5%, Rehash=0, Collisions=26/91=29%
+# Load=16/1024=2%, Rehash=0, Collisions=4/36=11%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 66 / storage = 675 B / avg = 10 B
-# current buf: size = 8162 B / used = 675 B / count = 66 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 271 B / avg = 9 B
+# current buf: size = 8162 B / used = 271 B / count = 30 / avg = 9 B
 
-# strcache performance: lookups = 91 / hit rate = 27%
+# strcache performance: lookups = 48 / hit rate = 37%
 # hash-table stats:
-# Load=66/8192=1%, Rehash=0, Collisions=34/91=37%
-# Finished Make data base on Sun Aug 28 19:34:16 2022
+ 
+# Load=30/8192=0%, Rehash=0, Collisions=8/48=17%
+# Finished Make data base on Sun Aug 28 20:18:53 2022
 
  
