@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 28 20:18:53 2022
+# Make data base, printed on Mon Aug 29 18:03:22 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-551fe46f-6e75-471d-99a9-f44da18a5684.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-72fa8da1-0fa1-44ce-97ad-0efb85a57456.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +67,7 @@ PWD = /home/samchau/Uni/Object-Oriented-Programming
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/11498_interop
+WSL_INTEROP = /run/WSL/25981_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -146,10 +146,8 @@ LANG = C
 TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
-# environment
-MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=68/1024=7%, Rehash=0, Collisions=4/93=4%
+# Load=67/1024=7%, Rehash=0, Collisions=4/92=4%
 
 # Pattern-specific Variable Values
 
@@ -157,9 +155,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2112, inode 50716): 21 files, no impossibilities.
+# . (device 2112, inode 50716): 23 files, no impossibilities.
 
-# 21 files, no impossibilities in 1 directories.
+# 23 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -208,7 +206,7 @@ Capybara.cpp:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-28 20:18:46.746986913
+#  Last modified 2022-08-29 18:03:19.450956932
 #  File has been updated.
 #  Successfully updated.
 
@@ -276,13 +274,13 @@ Wagon.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 271 B / avg = 9 B
-# current buf: size = 8162 B / used = 271 B / count = 30 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 288 B / avg = 9 B
+# current buf: size = 8162 B / used = 288 B / count = 32 / avg = 9 B
 
-# strcache performance: lookups = 48 / hit rate = 37%
+# strcache performance: lookups = 50 / hit rate = 36%
 # hash-table stats:
+# Load=32/8192=0%, Rehash=0, Collisions=9/50=18%
  
-# Load=30/8192=0%, Rehash=0, Collisions=8/48=17%
-# Finished Make data base on Sun Aug 28 20:18:53 2022
+# Finished Make data base on Mon Aug 29 18:03:22 2022
 
  
