@@ -1,58 +1,71 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-class A {
-
-    protected:
-        int _s;
-
-    public:
-        A(int s): _s(s){}
-        A():A(-1) {}
-
-        // runtime polymorphism
-         void print() {
-            cout << "S = " << this->_s << endl;
-        }
-
-};
-
-class B : public A {
-
+class Point {
     private:
-        double _k;
-    
+        int* _x;
+        int* _y;
     public:
-        B(int s,double k):A(s), _k(k) {}
-        B():B(0,0) {}
-
-        // overiding the function
-        void print() {
-            cout << "S = " << this->_s << " K = "<< this->_k << endl;
+        Point() {
+            _x = new int;
+            _y = new int;
+            *_x = 0;
+            *_y = 0;
         }
 
+        // new copy constructor to fix dynamic arrays
+        Point (const Point &pnt) {
+            _x = new int;
+            _y = new int;
+            *_x = *(pnt._x);
+            *_y = *(pnt._y);
+        }
+        // neeeded to copy over
+        void operator=(const Point &pnt) {
+            *_x = *(pnt._x);
+            *_y = *(pnt._y);
+        }
+
+        void print() {cout << *_x << ", " << *_y << endl;}
+        // need virtual 
+        virtual void set_point(int x, int y) {*_x=x; *_y=y;}
+
+        // default destructor . added virtual to use new overriden destructors
+        virtual ~Point() {
+            delete _x;
+            delete _y;
+            cout << "_x and _y were deleted\n";
+        }
 };
 
-void test(A* a) {
-    a->print();
-}
+class Point3D : public Point{
+    private:
+        int* _z;
+    public:
+        Point3D():Point() {
+            _z = new int;
+        }
+        void set_point(int x, int y, int z) {
+            Point::set_point(x,y);
+            *_z = z;
+        }
+        // virtual destructor
+        ~Point3D() {
+            delete _z;
+            cout << "_z was deleted\n";
+        }
+};
+
 
 int main() {
-/*     
-    A* a1;
-    B b1(500,0.123);
-    // a pointer to a base class can point to an object from a derived class
-    a1 = &b1;
-    // print is statically binded to the parent class
-    a1->print(); */
 
-    A a1(564);
-    B b1(500,0.123);
 
-    test(&a1);
-    test(&b1);
+    Point* p = new Point3D;
+
+    // this uses default destuctor because destructor is not virtual
+    delete p;
+    //p->set_point(10,10,10);
 
     return 0;
 }
