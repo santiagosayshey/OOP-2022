@@ -24,14 +24,21 @@ int main() {
     Wagon w;
 
     w.addCapybara(a);
+        w.printCapybaras();
+        std::cout << std::endl;
     w.addCapybara(b);
+        w.printCapybaras();
+        std::cout << std::endl;
     w.addCapybara(c);
+        w.printCapybaras();
+        std::cout << std::endl;
     w.addCapybara(d);
+        w.printCapybaras();
+        std::cout << std::endl;
     w.emptyWagon();
     w.addCapybara(e);
-
-    w.printCapybaras();
-
+        w.printCapybaras();
+        std::cout << std::endl;
     return 0;
 }
 
