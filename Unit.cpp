@@ -2,23 +2,26 @@
 
 Unit::Unit()
 {
-    unit_val=0;
-    num_beds=0;
-    unit_size=0;
+    unitValue=0;
+    numBeds=0;
+    unitSize=0;
 } 
-Unit::Unit(int unit_val, int num_beds, double unit_size):
-unit_val(unit_val), num_beds(num_beds), unit_size(unit_size)
-{}
+Unit::Unit(int unit_val, int num_beds, double unit_size)
+{
+    unitValue=unit_val;
+    numBeds=num_beds;
+    unitSize=unit_size;
+}
 
 int Unit::get_num_bedrooms()
 {
-    return num_beds;
+    return numBeds;
 }
 int Unit::get_value()
 {
-    return unit_val;
+    return unitValue;
 }
 double Unit::get_area()
 {
-    return unit_size;
+    return unitSize;
 }

@@ -15,9 +15,9 @@ int get_value();                                      // returns the value in do
 double get_area();                                    // returns the number of square meters in the unit
 
 private:
-    int unit_val;
-    int num_beds;
-    double unit_size;
+    int unitValue;
+    int numBeds;
+    double unitSize;
 
 };
 

@@ -25,7 +25,7 @@ public:
     ~ApartmentBuilding();
 
 private:
-    int capacity;
+    int cap;
     int totalUnits;
     Unit* arr;
 

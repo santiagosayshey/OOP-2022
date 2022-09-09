@@ -3,21 +3,21 @@
 
     ApartmentBuilding::ApartmentBuilding()
     {
-        capacity = 10;
+        cap = 10;
         arr = new Unit[capacity];
         totalUnits = 0;
     }
 
-    ApartmentBuilding::ApartmentBuilding(int capacity):
-    capacity(capacity)
+    ApartmentBuilding::ApartmentBuilding(int capacity)
     {
-        arr = new Unit[capacity];
+        cap = capacity;
+        arr = new Unit[cap];
         totalUnits = 0;
     }
 
     int ApartmentBuilding::get_capacity()
     {
-        return capacity;
+        return cap;
     }
 
     // returns the current number of units in the apartment building
@@ -36,7 +36,7 @@
     // otherwise returns false
     bool ApartmentBuilding::add_unit(Unit unit)
     {
-        if (totalUnits < capacity) {
+        if (totalUnits < cap) {
             arr[totalUnits] = unit;
             totalUnits++;
             return true;
