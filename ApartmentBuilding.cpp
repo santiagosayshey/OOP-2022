@@ -3,7 +3,7 @@
 
     ApartmentBuilding::ApartmentBuilding()
     {
-        cap = 0;
+        cap = 10;
         arr = new Unit[cap];
         totalUnits = 0;
     }
