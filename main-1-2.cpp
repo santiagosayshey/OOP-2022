@@ -5,6 +5,9 @@
 
 int main() {
 
+    ApartmentBuilding a;
+    Unit aa;
+    Unit bb;
 
     return 0;
 }
