@@ -1,0 +1,31 @@
+#include <iostream>
+#include "Point.h"
+#include "Pair.h"
+
+
+typedef Point<int> pointI;
+typedef Point<float> pointF;
+typedef Point<double> pointD;
+
+
+int main() {
+
+    pointI p1(2,5); // we define the type T as an integer when creatina new Point
+    pointF p2(3.5,8.5);
+    pointD p3(0.002, 0.003);
+
+    Point<int> * p4 = new Point<int>(4,5); // this looks ugly so we can use typedef statements to make it easier to read
+
+    p1.print();
+    p2.print();
+    p3.print();
+    p4->print();
+
+    Pair<int,int> pair1(1,2);
+    Pair<int,float> pair1(1,2);
+    Pair<int,double> pair1(1,2);
+
+    Pair<Point<int>, Point<float>> line(p1, p2);
+
+    return 0;
+}
