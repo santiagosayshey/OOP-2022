@@ -1,42 +1,34 @@
-using namespace std;
 #include <iostream>
+#include <string>
 
-class Student
+using namespace std;
+
+class A
 {
     private:
-        int id;
-        static int count;
-        
+        int age;
     public:
-        
+        A() {}
+        ~A() {}
 
-        Student()
+        void setAge(int age)
         {
-            id = Student::count++; // increment each time a student is created because count is static
+            if (age<0)
+                throw ("invalid age");
+            else if(age>100)
+                throw string("error");
+            this->age=age;
         }
 
-        int getID()
-        {
-            return id;
-        }
-
-        static int getCount() // must return a static int, cant return a regular int, ie id
-        {
-            return Student::count;
-        }
 };
-
-int Student::count = 1000; // has to be defined outside the class
 
 int main()
 {
-    Student s[100];
+    A a;
 
-    for (int i = 0; i < 100; i++)
-    {
-        cout << s[i].getID() << endl;
-    }
-    
-
+    try {a.setAge(111);}
+    catch(const char*  msg) {cerr << msg << endl;}
+    catch(int ecode) {cerr << ecode << endl;}
+    catch(...) {cerr << "unknown error!" << endl;} // catch 
     return 0;
 }
