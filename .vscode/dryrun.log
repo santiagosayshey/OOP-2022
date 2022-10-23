@@ -1,6 +1,7 @@
 make --dry-run --keep-going --print-directory
 make: Entering directory '/home/samchau/Uni/Object-Oriented-Programming'
-g++ function-1-1.cpp main-1-1.cpp -o 1-1.out
-./1-1.out
 make: Leaving directory '/home/samchau/Uni/Object-Oriented-Programming'
  
+make: *** No rule to make target 'function-1-1.cpp', needed by '1-1'.
+make: *** No rule to make target 'main-1-1.cpp', needed by '1-1'.
+
