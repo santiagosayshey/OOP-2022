@@ -27,6 +27,11 @@ zoo::zoo(std::string n,int cows,int lions)
 
 }
 
+zoo::~zoo()
+{
+    
+}
+
 std::string zoo::get_name()
 {
     return name;
