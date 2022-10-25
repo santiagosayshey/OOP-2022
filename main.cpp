@@ -30,9 +30,6 @@ int main()
         cout << arr[i]->get_animalID() << endl;
     }
 
-    cout << endl;
-    cout << endl;
-
     id.sort(arr,z->get_number_of_animals());
 
     for (int i = 0; i < z->get_number_of_animals(); i++)
