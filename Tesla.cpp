@@ -61,6 +61,16 @@ void Tesla::drive(int kms)
     {
         emissions=37000;
     }
+
+    if (price==35000)
+    {
+        emissions=2220;
+    }
+
+    if (price=45000)
+    {
+        emissions=32760;
+    }
     
     if (batteryPercentage>0)
     {
