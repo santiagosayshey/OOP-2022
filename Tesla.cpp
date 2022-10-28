@@ -5,6 +5,7 @@ int Tesla::nextVinNumber=1000001;
 Tesla::Tesla()
 {
     batteryPercentage=100;
+    vinNumber=nextVinNumber;
     nextVinNumber++;
 }
 

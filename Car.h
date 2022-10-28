@@ -21,7 +21,7 @@ public:
     virtual void drive(int kms) = 0;
 
 protected:
-    int price;
+    int price=0;
     int vinNumber;
     int emissions;
 
