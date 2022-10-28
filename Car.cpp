@@ -8,6 +8,7 @@ Car::Car()
 Car::Car(int price)
 {
     emissions=0;
+    this->price=price;
 }
 
 Car::~Car()

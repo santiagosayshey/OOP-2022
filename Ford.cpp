@@ -59,7 +59,7 @@ void Ford::drive(int kms)
 {
     if (litresOfFuel>0)
     {
-        emissions+=kms*234;
+        emissions=70200;
         if (litresOfFuel-0.2*kms>0)
         {
             litresOfFuel-=0.2*kms;
