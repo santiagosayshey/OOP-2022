@@ -27,8 +27,6 @@ void Tesla::chargeBattery(int mins)
     {
         batteryPercentage=100;
     }
-
-
 }
 
 char Tesla::get_model()
