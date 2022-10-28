@@ -57,21 +57,17 @@ void Ford::set_litresOfFuel(int l)
 
 void Ford::drive(int kms)
 {
-    if (kms=1000)
+    for (int i=1;i<kms;i++)
     {
-        emissions=70200;
-    }
-    if (litresOfFuel>0)
-    {
-        
-        if (litresOfFuel-0.2*kms>0)
+        if (litresOfFuel-0.2>0)
         {
-            litresOfFuel-=0.2*kms;
-            emissions=emissions+kms*234;
+            litresOfFuel=litresOfFuel-0.2;
+            emissions=emissions+234;
         }
-        else if (litresOfFuel-0.2*kms<0)
+        else
         {
             litresOfFuel=0;
         }
     }
+
 }
