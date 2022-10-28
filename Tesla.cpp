@@ -55,7 +55,7 @@ void Tesla::drive(int kms)
 {
     for (int i=1;i<kms;i++)
     {
-        if (batteryPercentage-0.2>0)
+        if (batteryPercentage>0)
         {
             batteryPercentage=batteryPercentage-0.2;
             emissions=emissions+74;
