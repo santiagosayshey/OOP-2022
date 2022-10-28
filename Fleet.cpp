@@ -30,6 +30,7 @@ Fleet* Fleet::createFleet(int authority)
     if (authority>10)
     {
         Fleet* a;
+        a = new Fleet();
         return a;
     }
     else
