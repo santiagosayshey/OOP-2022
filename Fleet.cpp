@@ -27,7 +27,7 @@ int Fleet::get_count()
 }
 Fleet* Fleet::createFleet(int authority)
 {
-    if (authority>10)
+    if (authority>9)
     {
         Fleet* a;
         a = new Fleet();
