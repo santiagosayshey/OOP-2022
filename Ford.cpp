@@ -13,7 +13,7 @@ Ford::Ford(int badgeNumber, int price)
 {
     this->badgeNumber=badgeNumber;
     this->price=price;
-    this->litresOfFuel=60;
+    this->litresOfFuel=60.0;
     vinNumber=nextVinNumber;
     nextVinNumber++;
 }
