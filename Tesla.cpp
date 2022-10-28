@@ -53,25 +53,15 @@ void Tesla::set_batteryPercentage(int p)
 
 void Tesla::drive(int kms)
 {
-    if (kms==40)
+    /*if (kms==40)
     {
         emissions=2960;
     }
     if (kms==1000)
     {
         emissions=37000;
-    }
-
-    if (price==35000)
-    {
-        emissions=2220;
-    }
-
-    if (price=45000)
-    {
-        emissions=32760;
-    }
-    
+    }*/
+    emissions=emissions+kms*74;
     if (batteryPercentage>0)
     {
         
