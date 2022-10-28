@@ -22,8 +22,8 @@ public:
 
 protected:
     int price=20000;
-    int vinNumber;
-    int emissions;
+    int vinNumber=0;
+    int emissions=0;
 
 };
 
