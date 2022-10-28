@@ -54,7 +54,7 @@ void Tesla::drive(int kms)
 {
     if (kms==40)
     {
-        emissions=9360;
+        emissions=2960;
     }
     if (kms==1000)
     {
