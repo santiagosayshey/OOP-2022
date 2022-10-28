@@ -4,7 +4,7 @@ int Ford::nextVinNumber=2000002;
 
 Ford::Ford()
 {
-    this->litresOfFuel=59.995;
+    this->litresOfFuel=59.9995;
     vinNumber=nextVinNumber;
     nextVinNumber++;
 }
