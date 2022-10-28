@@ -13,6 +13,7 @@ Tesla::Tesla(char model, int price)
 {
     batteryPercentage=100;
     this->model=model;
+    vinNumber=nextVinNumber;
     nextVinNumber++;
 }
 
