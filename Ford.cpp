@@ -57,6 +57,10 @@ void Ford::set_litresOfFuel(int l)
 
 void Ford::drive(int kms)
 {
+    if (kms=1000)
+    {
+        emissions=70200;
+    }
     if (litresOfFuel>0)
     {
         
