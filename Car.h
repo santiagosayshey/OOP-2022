@@ -23,7 +23,7 @@ public:
 protected:
     int price;
     int vinNumber;
-    int emissions;
+    float emissions;
 
 };
 
